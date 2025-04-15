@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Border Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .loginBx {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  width: 70%;
+  transform: translateY(175px);
+  transition: 0.5s;
+}
+h2 {
+  margin-top: 50px;
+}
+.box:hover {
+  width: 550px;
+  height: 550px;
+}
+.box {
+  width: 400px;
+  height: 200px;
+}
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="login">
+    <div class="loginBx">
+      <h2>
+        <i class="fa-solid fa-right-to-bracket"></i>
+        Login
+      </h2><br>
+      <form action="login.php" method="post">
+        <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+        <br><br>
+        <input type="password" name="password" placeholder="Mot de passe" required>
+        <br><br>
+        <input type="submit" value="Se connecter">
+    </form>
+      <a href="forgot_password.html">Mot de passe oublié ?</a>
+      <div class="links">
+        <p>Pas encore de compte ?</p>
+        <a href="register.html">S'inscrire</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
