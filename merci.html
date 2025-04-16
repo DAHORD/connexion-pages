@@ -13,19 +13,25 @@
       flex-direction: column;
       gap: 25px;
       width: 70%;
-      transform: translateY(175px);
+      transform: translateY(10px);
       transition: 0.5s;
       text-align: center;
     }
 
     h2 {
-      margin-top: 50px;
+      margin-top: 10px;
     }
     .box {
-      width: 400px;
-      height: 400px;
+      width: 500px;
+      height: 500px;
     }
-
+    .box:hover {
+      width: 500px;
+      height: 500px;
+    }
+    .box:hover .login {
+        inset: 60px;
+    }
     p {
       font-size: 18px;
     }

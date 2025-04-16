@@ -83,7 +83,7 @@ body {
   inset: 4px;
   background: #2d2d39;
   border-radius: 15px;
-  border: 8px solid #25252b;
+  border: 12px solid #25252b;
 }
 
 .box:hover {
